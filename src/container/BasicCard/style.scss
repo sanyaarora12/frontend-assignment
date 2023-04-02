@@ -1,0 +1,56 @@
+.card-container {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  .name-container {
+    display: flex;
+    justify-content: space-between;
+    .icons {
+      display: flex;
+      gap: 15px;
+    }
+  }
+  .cardbtn {
+    text-transform: none;
+    word-break: break-all;
+  }
+  .delete-icon {
+    margin-top: 20px;
+    display: flex;
+    cursor: pointer;
+    button {
+      background-color: transparent;
+      border: 0px;
+      cursor: pointer;
+    }
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+.modal {
+  .MuiPaper-elevation {
+    display: block;
+    justify-content: center;
+    height: 50vh;
+    width: 150vh;
+  }
+}
+.css-ebec87-MuiPaper-root-MuiCard-root {
+  padding: 0px !important;
+}
+.modal-content {
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+
+  .x-btn {
+    height: 20px;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    margin-top: -20px;
+    margin-left: 10px;
+  }
+}
